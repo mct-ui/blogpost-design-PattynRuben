@@ -28,6 +28,8 @@ html {
   line-height: 1.5;
   color: #5c6366;
   padding: 48px 24px 24px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
@@ -71,6 +73,7 @@ h3 {
   color: #17181a;
 }
 h1 {
+  font-family: 'Playfair Display', serif;
   font-size: 36px;
   font-weight: normal;
   line-height: 40px;
