@@ -250,6 +250,23 @@ a:focus {
     width: 75%;
   }
 }
+
+.u-max-width-sm {
+    max-width: 36em;
+}
+
+.u-mb-clear{
+    margin-bottom: 0;
+}
+
+.u-mb-xs{
+    margin-bottom: 4px;
+}
+
+.u-mb-ms{
+    margin-bottom: 8px;
+}
+
 /* Small devices (landscape phones, 576px and up) */
 
 @media (min-width: 576px) {
@@ -346,6 +363,3 @@ a:focus {
     Utility classes to put specific max widths into elements
 */
 
-.u-max-width-sm {
-  max-width: 36em;
-}
